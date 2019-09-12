@@ -37,10 +37,12 @@
    cp -R themes/vexo/_source/* source/
    ```
 
-2. Update project `_config.yml` theme config, look like this
+2. Update theme config: `_config.yml` 
 
    ```
+   ...
    themes: vexo
+   ...
    ```
 
    Here theme's name must same as the theme folder name.
@@ -61,7 +63,6 @@ git pull
 The **front-matter** of a post looks like that:
 
 ```
----
 title: "Hello World"
 date: 2016-06-10 23:00
 banner: your-banner-link.jpg
@@ -156,7 +157,7 @@ zhihu_username: your_zhihu_account
 ## About
 
 - Give a star if you like , fork or just clone to use , and also you can help me fix bugs and add new feature :)
-- If you have any problem or requirement , just open an issue here and i will help you.
+- If you have any problem or requirement , just open an issue here and I will help you.
 - Thanks to [@imsun](https://github.com/imsun) , [@Evan You](https://github.com/yyx990803) and [@Hexo](https://hexo.io).
 
 ## LICENSE
