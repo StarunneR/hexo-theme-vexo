@@ -20,7 +20,7 @@
   <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/<%= theme.highlight %>.min.css" rel="stylesheet">
   <%- css('css/style') %>
   <% if (theme.comment === 'gitment') { %>
-    css('css/plugins/gitment.css')
+    <%- css('css/plugins/gitment.css') %>
   <% } %>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
@@ -32,6 +32,8 @@
     <%- js('js/gitment') %>
   <% } %>
   <%- partial('_third-party/mathjax') %>
+  <%- partial('_third-party/google_analytics') %>
+  <%- partial('_third-party/localsearch') %>
 </head>
 <div class="wechat-share">
   <img src="/css/images/logo.png" />
